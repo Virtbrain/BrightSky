@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		149BBBD12ABC710900DD328C /* CurrentWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149BBBD02ABC710900DD328C /* CurrentWeatherView.swift */; };
+		149BBBD32ABC713800DD328C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149BBBD22ABC713800DD328C /* SettingsView.swift */; };
 		14EA26E32ABB42CD00A44DB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EA26E22ABB42CD00A44DB1 /* AppDelegate.swift */; };
 		14EA26E52ABB42CD00A44DB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EA26E42ABB42CD00A44DB1 /* SceneDelegate.swift */; };
 		14EA26E72ABB42CD00A44DB1 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EA26E62ABB42CD00A44DB1 /* WeatherViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		149BBBD02ABC710900DD328C /* CurrentWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherView.swift; sourceTree = "<group>"; };
+		149BBBD22ABC713800DD328C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		14EA26DF2ABB42CD00A44DB1 /* BrightSky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrightSky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14EA26E22ABB42CD00A44DB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14EA26E42ABB42CD00A44DB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,13 +68,13 @@
 		14EA26E12ABB42CD00A44DB1 /* BrightSky */ = {
 			isa = PBXGroup;
 			children = (
+				14EA26F62ABB45DC00A44DB1 /* Application */,
+				14EA26F72ABB45F600A44DB1 /* Resources */,
 				14EA26FC2ABB477300A44DB1 /* Managers */,
 				14EA26FB2ABB476D00A44DB1 /* Controllers */,
 				14EA26FA2ABB475A00A44DB1 /* Models */,
 				14EA26F92ABB474B00A44DB1 /* VIewMopdels */,
 				14EA26F82ABB474500A44DB1 /* Views */,
-				14EA26F72ABB45F600A44DB1 /* Resources */,
-				14EA26F62ABB45DC00A44DB1 /* Application */,
 			);
 			path = BrightSky;
 			sourceTree = "<group>";
@@ -97,6 +101,8 @@
 		14EA26F82ABB474500A44DB1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				149BBBD02ABC710900DD328C /* CurrentWeatherView.swift */,
+				149BBBD22ABC713800DD328C /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -208,7 +214,9 @@
 				14EA27062ABB4AA100A44DB1 /* TabViewController.swift in Sources */,
 				14EA27022ABB47E200A44DB1 /* WeatherManager.swift in Sources */,
 				14EA26FE2ABB47B400A44DB1 /* LocationManager.swift in Sources */,
+				149BBBD12ABC710900DD328C /* CurrentWeatherView.swift in Sources */,
 				14EA27042ABB4A0900A44DB1 /* SettingsViewController.swift in Sources */,
+				149BBBD32ABC713800DD328C /* SettingsView.swift in Sources */,
 				14EA26E72ABB42CD00A44DB1 /* WeatherViewController.swift in Sources */,
 				14EA27002ABB47C600A44DB1 /* IAPManager.swift in Sources */,
 				14EA26E32ABB42CD00A44DB1 /* AppDelegate.swift in Sources */,
